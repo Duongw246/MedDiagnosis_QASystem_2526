@@ -1,0 +1,2 @@
+from infrastructures.ultralytics_patch import patch_ultralytics_safe_load
+

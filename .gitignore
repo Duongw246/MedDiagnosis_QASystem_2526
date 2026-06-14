@@ -1,2 +1,65 @@
+# === Python: environments, caches, bytecode ===
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.python-version
+
+# Backend-specific
 backend/venv/
 backend/__pycache__/
+backend/.env
+
+# === Node / Next.js / Frontend ===
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.next/
+frontend/.next/
+out/
+frontend/out/
+build/
+frontend/build/
+
+# Package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Testing
+coverage/
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# Vercel
+.vercel/
+
+# Misc
+.DS_Store
+*.pem
+next-env.d.ts
+*.tsbuildinfo
+
+# IDEs / editors
+.idea/
+.vscode/
+
+# Model weights and generated outputs
+weights/
+frontend/weights/
+output/
