@@ -4,7 +4,7 @@ Backend API cho hệ thống phát hiện bệnh lý phổi từ ảnh X-quang s
 
 ## Cài đặt & chạy
 
-Xem hướng dẫn ở file `README.md` (thư mục gốc).
+Xem hướng dẫn ở file `SETUP_GUIDE.md` (thư mục gốc).
 
 Chạy backend (dev):
 
